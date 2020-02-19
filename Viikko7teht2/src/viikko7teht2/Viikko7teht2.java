@@ -4,6 +4,7 @@ public static void main(String[] args) {
 
 
     System.out.println("Viikko 7 --> tehtävä 2!");
+    System.out.println("Viikko 7 tehtävä 2 -- Lisää tulostusta....");
 
 }
     
