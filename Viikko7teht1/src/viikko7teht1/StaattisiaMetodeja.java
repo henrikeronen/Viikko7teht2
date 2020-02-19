@@ -2,18 +2,25 @@ package viikko7teht1;
 public class StaattisiaMetodeja {
     
     public static double ympyranAla(double sade){
-        return sade * sade;
+        double ala = Math.PI * sade * sade;
+        return ala;
     }
 
     public static boolean tarkistaSotu(String sotu){
-        
-        return true;
+        if(sotu.length()==11){
+            return true;
+        }else{
+            return false;
+        }
+       
     }
     
     public static String muunna(String mjono){
-    
-        String jono = mjono;
-        return jono;
+        
+        String output;
+        output = mjono.substring(0, 1).toUpperCase() + mjono.substring(1);
+        
+        return output;
     }
     
     
