@@ -19,7 +19,6 @@ public class StaattisiaMetodeja {
         
         String output;
         output = mjono.substring(0, 1).toUpperCase() + mjono.substring(1);
-        
         return output;
     }
     

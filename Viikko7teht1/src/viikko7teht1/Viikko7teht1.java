@@ -4,6 +4,7 @@ public class Viikko7teht1 {
 
 
         System.out.println("Tämä on pääohjelma!");
+        System.out.println("Lisää tulostusta...");
     }
     
 }
